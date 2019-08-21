@@ -1,0 +1,13 @@
+I have had a hard time understanding what 'state' is, and why everyone seems to think its the most revolutionary thing in the world. Why is it different than props? What can state do that props can't? etc.
+
+Well the CodeCamp React tutorial actually said something that clicked with me!
+
+When we think of props, they are always bits of information being passed down from one component to the other, and ideally we are getting them from some kind of database. The KEY limitation/quality of a prop is that its value CANNOT be changed by components (they are, in other words, IMMUTABLE)! 
+
+This is where the usefulness of 'state' comes in. State is basically data that is MANAGED BY COMPONENTS.
+
+That should make enough sense for now, but I'll need to do some exercies to really understand their usefulness.
+
+* If you want to use state, the component using it MUST be a class-based component.
+
+* SUPER: I've always wondered what the super() function call is that I see at the beginning of a class constructor. Apparently, this is a function that brings down properties of the class' parent (aka super) class.

@@ -1,0 +1,5 @@
+Class-based components offer more functionality than functional components. 
+
+See ClassTestApp.js to compare the two structures. The main difference is the render method, which encapsulates the return method in a class-based component.
+
+Props are handled a bit differently in class-based components. You must include the keyword 'this' before props.whatever.

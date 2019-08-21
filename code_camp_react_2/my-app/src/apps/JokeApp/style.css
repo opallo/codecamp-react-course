@@ -1,0 +1,45 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 199, 199);
+}
+
+.joke-card{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  margin:  3rem 15%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow:  0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: .3s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.joke-card:hover{
+  box-shadow:  0 10px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: .1s;
+}
+
+.joke-card:active{
+  transform: scale(1.04);
+  background-color: rgb(243, 243, 243)
+}
+
+.joke-content{
+  padding: 0.4rem;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+  .joke-card{
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: 1px dotted rgb(255, 199, 199);
+  }
+}
