@@ -1,7 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import SetStateApp from './apps/SetStateApp/SetStateApp.js'
 
-import StatePracticeApp from './apps/StatePracticeApp/StatePracticeApp.js'
-
-ReactDOM.render(<StatePracticeApp />, document.getElementById('root'))
-
+ReactDOM.render(<SetStateApp />, document.getElementById('root'))
