@@ -1,0 +1,13 @@
+I feel like state is going to have a lot of little intricacies, so this will be my page of notes on state in general.
+
+* When using a self-defined function on a state, you must first BIND said function to the component's state.
+
+* The setState method effectively REPLACES a given state with a new state. It does not modify the current state granularly.
+
+* In the setState method, if you need to know the previous state of a component you can pass a FUNCTION in as the first argument of setState. The function you pass in will be provided an argument for the state of the object before any changes are made! It looks somthing like this:
+
+------> setState(prevState => { return {object: prevState.object + 1}}
+
+The above will create a new state, but before doing so, it will take note of the current state and 1 to its VALUE.
+
+* Keep in mind that you can pass a component's state objects down to any of its child components as props! ALSO, whenever the setState method is used, any child component that is using the state you are setting as a prop will be RERENDERED to reflect the change dynamically!
