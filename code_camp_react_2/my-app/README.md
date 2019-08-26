@@ -1,3 +1,8 @@
+## React Crash Course
+
+This is a repository for anything related to the CodeCamp React crash course. I have all of my App components in one folder, just for convenience, because it takes such a long time to create a new react app, even with Facebook's create-react-app. I can then just easily swap out the component being passed into the ReactDOM renderer.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
