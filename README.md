@@ -6,3 +6,5 @@ I have one index.js file to render the DOM from for convenience while practicing
 Currently working on a notes app that uses pretty much everything I’ve learned about react so far, and then some.  
 Need to learn some more about integrating form submissions and input changes with React state and data management.
 Should have some kind of working prototype up sometime tomorrow!
+
+Also am considering creating an actual “project” on github, or possibly using Trello to outline tasks.
